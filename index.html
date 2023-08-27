@@ -1,0 +1,417 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pranshu Portfolio</title>
+</head>
+<link rel="stylesheet" href="portfolio.css">
+<link rel="stylesheet" href="mediaquery.css">
+
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Pranshu Gupta</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#internship">Internships</a></li>
+                <li><a href="#achievement">Achievements</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+               
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Pranshu Gupta</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#internship" onclick="toggleMenu()">Internships</a></li>
+                <li><a href="#achievement" onclick="toggleMenu()">Achievements</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact Me</a></li>
+                
+            </div>
+        </div>
+    </nav>
+
+    <section id="profile">
+        <div class="section-pic-container">
+            <img src="./assets/pranshu_profile.jpg" style="border-radius: 50%;" alt="Profile pic of Pranshu">
+        </div>
+        <div class="section-text-container">
+            <p class="section-text-hi">Hello , I am</p>
+            <h2 class="title">Pranshu Gupta</h2>
+            <p class="who-i-am">Sales & Market Officer</p>
+            <p class="designation">IPP, Dubai</p>
+
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('assets/pranshu_resume.pdf')">Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='#contact'">Contact me</button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedein_logo.png" alt="Pranshu Linkedin logo" class="icon"
+                    onclick="location.href='https://www.linkedin.com/in/pranshuguptamarketer/'">
+                <img src="./assets/facebook_logo.png" alt="Pranshu Gmail logo" class="icon"
+                    onclick="location.href='https://www.facebook.com/pranshu.gupta.395891'">
+                <img src="./assets/insta_logo.png" alt="Pranshu Instagram logo" class="icon"
+                    onclick="location.href='https://www.instagram.com/creative_pranshu/'">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section-text-hi">Get to Know More</p>
+        <h3 class="title">About</h3>
+        <div class="section-container">
+            <div class="section-pic-container">
+                <img src="./assets/about-pic.PNG" style="border-radius: 40%;" alt="Pranshu about section"
+                    class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/experience-logo.png" alt="pranshu Experience" class="icon">
+                        <h3>Experience</h3>
+                        <p>6+ month</p><br>
+                        <p>Sales & Market Officer At IPP DUBAI </p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/education_logo.jpg" alt="pranshu education" class="icon">
+                        <h3>Education</h3>
+                        <p>Postgraduate Degree, Business Administration and Management</p><br>
+                        <p>Bsc , Hospitality Administration/Management</p><br>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>
+                        With a background in hospitality and an MBA in marketing, I've acquired diverse skills.
+                        Internships at Lela Ambience Gurugram and Dabur India developed my customer service, sales, and
+                        marketing abilities. While pursuing my MBA, I wrote SEO content and led the Marketing Club,
+                        leading to a Sales and Marketing Officer position in Dubai. Eager to learn and contribute, I'm
+                        open to connections.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='#experience'">
+
+    </section>
+
+    <section id="experience">
+        <p class="section-text-hi">Explore My</p>
+        <h3 class="title">Experience</h3>
+        <div class="about-containers">
+            <div class="details-container">
+                <h3 class="experience-sub-title">Integrated Plastics Packaging</h3>
+                <div>
+                    <img src="./assets/ipp_logo.jpg" alt="expertise" class="ippIcon">
+                    <div>
+                        <h4>Sales and Marketing Officer </h4>
+                        <h5>March 2023 -Present</h5>
+                        <h5>Dubai,United Arab Emirates</h5>
+                        <p>I acquired expertise in flexible packaging, managed exports to multiple Middle Eastern
+                            countries, collaborated for a 39M AED sales goal, and adeptly pitched new clients via email
+                            and phone.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h3 class="title">Skills</h3>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Content Writing Skills</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="skills" class="icon">
+                            <div>
+                                <h3>ChatGpt</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="skills" class="icon">
+                            <div>
+                                <h5>Canva Design tool</h3>
+                                    <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="skills" class="icon">
+                            <div>
+                                <h5>Semrush Design tool</h5>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="skills" class="icon">
+                            <div>
+                                <h5>BuzzSumo</h5>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="skills" class="icon">
+                            <div>
+                                <h5>HubSpot</h5>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="skills" class="icon">
+                            <div>
+                                <h5>Scrivener</h5>
+                                <p>Advanced</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Work related Skills</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="skills" class="icon">
+                            <div>
+                                <h5>Sales Management</h5>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="skills" class="icon">
+                            <div>
+                                <h5>Communication</h5>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="skills" class="icon">
+                            <div>
+                                <h5>Digital Marketing</h5>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="skills" class="icon">
+                            <div>
+                                <h5>Content Production</h5>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="skills" class="icon">
+                            <div>
+                                <h5>Customer Relationship Management</h5>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="skills" class="icon">
+                            <div>
+                                <h5>Teamwork</h5>
+                                <p>Advanced</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='#internship'">
+    </section>
+
+    <section id="internship">
+        <p class="section-text-hi">Browse My</p>
+        <h3 class="title">Interships</h3>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/dabur_logo.png" alt="dabur" class="internship-img">
+                    </div>
+                    <h2 class="experience-sub-title internship-title">Dabur India Limited</h2>
+                    <p>Sales Intern</p>
+                    <div class="btn-container">
+                        <button
+                          class="btn btn-color-2 internship-btn"
+                          onclick="location.href='https://www.linkedin.com/posts/pranshuguptamarketer_business-sales-india-activity-6954399107138363392--L9p?utm_source=share&utm_medium=member_desktop'"
+                        >
+                         About Internship
+                        </button>
+                        <button
+                          class="btn btn-color-2 internship-btn"
+                          onclick="window.open('assets/dabur.pdf')"
+                        >
+                         View Certificate
+                        </button>
+                      </div>
+                    </div>
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="./assets/udemy_logo.png" alt="dabur" class="internship-img">
+                        </div>
+                        <h2 class="experience-sub-title internship-title">Udemy Online Platform</h2>
+                        <p>C-level Executive Public Speaking</p>
+                        <div class="btn-container">
+                            <button
+                              class="btn btn-color-2 internship-btn"
+                              onclick="location.href='https://www.linkedin.com/posts/pranshuguptamarketer_sales-salesandmarketing-udemy-activity-6888051498476023808-PJcz?utm_source=share&utm_medium=member_desktop'"
+                            >
+                             About Internship
+                            </button>
+                            <button
+                              class="btn btn-color-2 internship-btn"
+                              onclick="window.open('assets/public-speaking.pdf')"
+                            >
+                             View Certificate
+                            </button>
+                          </div>
+                        </div>
+                        <div class="details-container color-container">
+                            <div class="article-container">
+                                <img src="./assets/eduonix.png" alt="dabur" class="internship-img">
+                            </div>
+                            <h2 class="experience-sub-title internship-title">Eduonix Learning pvt ltd</h2>
+                            <p>Become A Copywriter Pro from Ground Up</p>
+                            <div class="btn-container">
+                                <button
+                                  class="btn btn-color-2 internship-btn"
+                                  onclick="location.href='https://www.linkedin.com/posts/pranshuguptamarketer_im-happy-to-share-that-ive-obtained-a-new-activity-7091809104066678784-GaeI?utm_source=share&utm_medium=member_desktop'"
+                                >
+                                 About Internship
+                                </button>
+                                <button
+                                  class="btn btn-color-2 internship-btn"
+                                  onclick="window.open('assets/edunix.pdf')"
+                                >
+                                 View Certificate
+                                </button>
+                              </div>
+                            </div>
+            </div>
+        </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='#achievement'">
+
+
+    </section>
+    <section id="achievement">
+        <p class="section-text-hi">Browse My</p>
+        <h3 class="title">Achivements</h3>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/internation_logo.png" alt="placement" class="internship-img">
+                    </div>
+                    <h2 class="experience-sub-title internship-title">International Campus Placement</h2>
+                    <p>Dubai,United Arab Emirates</p>
+                    <div class="btn-container">
+                        <button
+                          class="btn btn-color-2 internship-btn"
+                          onclick="location.href='https://www.linkedin.com/posts/pranshuguptamarketer_marketing-business-sales-activity-7036988608657969152-9t3t?utm_source=share&utm_medium=member_desktop'"
+                        >
+                         About Achievement
+                        </button>
+                        <button
+                          class="btn btn-color-2 internship-btn"
+                          onclick="window.open('assets/firstDayIpp.pdf')"
+                        >
+                         View Pics
+                        </button>
+                      </div>
+                    </div>
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="./assets/recommendation.png" alt="dabur" class="internship-img">
+                        </div>
+                        <h2 class="experience-sub-title internship-title">kochiva Platform</h2>
+                        <p>Virtual Content Writing Intern</p>
+                        <div class="btn-container">
+                            <button
+                              class="btn btn-color-2 internship-btn"
+                              onclick="location.href='https://www.linkedin.com/posts/pranshuguptamarketer_sales-salesandmarketing-udemy-activity-6888051498476023808-PJcz?utm_source=share&utm_medium=member_desktop'"
+                            >
+                            About Achievement
+                            </button>
+                            <button
+                              class="btn btn-color-2 internship-btn"
+                              onclick="window.open('assets/recommendation.pdf')"
+                            >
+                             View Certificate
+                            </button>
+                          </div>
+                        </div>
+                        <div class="details-container color-container">
+                            <div class="article-container">
+                                <img src="./assets/president.png" alt="dabur" class="internship-img">
+                            </div>
+                            <h2 class="experience-sub-title internship-title">President Roll Honor</h2>
+                            <p>Given to top 10 student batch toppers of College</p>
+                            <div class="btn-container">
+                                <button
+                                  class="btn btn-color-2 internship-btn"
+                                  onclick="window.open('assets/presidentPics.pdf')"
+                                >
+                                Achievement pic
+                                </button>
+                                <button
+                                  class="btn btn-color-2 internship-btn"
+                                  onclick="window.open('assets/president.pdf')"
+                                >
+                                 View Certificate
+                                </button>
+                              </div>
+                            </div>
+            </div>
+        </div>
+    </div>
+
+
+    </section>
+    <section id="contact">
+        <p class="section-text-hi">Get In Touch</p>
+        <h3 class="title">Contact Me</h3>
+        <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+            <img src="./assets/email.png" alt="email logo" class="icon contact-icon">
+            <p><a href="mailto:Pranshu.gupta704@gmail.com">Pranshu.gupta704@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+            <img src="./assets/linkedein_logo.png" alt="linkedein logo" class="icon contact-icon">
+            <p><a href="https://www.linkedin.com/in/pranshuguptamarketer/">linkedein</a></p>
+        </div>
+        <div class="contact-info-container">
+            <img src="./assets/phone.png" alt="Phone logo" class="icon contact-icon">
+            <img src="./assets/indiaFlag.png" alt="india logo" class="icon flag-icon">
+            <h6>+91 9354038266
+            </h6>
+            <img src="./assets/Uae.png" alt="Uae logo" class="icon flag-icon">
+            <h6>+971 558201031</h6>
+        </div>
+    </div>
+    </section>
+    <footer>
+        <nav>
+          <div class="nav-links-container">
+            <ul class="nav-links">
+              <li><a href="#about">About</a></li>
+              <li><a href="#experience">Experience</a></li>
+              <li><a href="#internship">Internships</a></li>
+              <li><a href="#achievement">Achievements</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+        <p>Copyright &#169; 2023 Pranshu Gupta. All Rights Reserved.</p>
+      </footer>
+
+</body>
+<script src="porfolio.js"></script>
+
+</html>
